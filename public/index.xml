@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryder</title>
+    <link>https://ddzero2c.dev/</link>
+    <description>Recent content on Ryder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ddzero2c.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>關於</title>
+      <link>https://ddzero2c.dev/about/</link>
+      <pubDate>Sat, 21 Jan 2023 01:43:53 +0800</pubDate>
+      
+      <guid>https://ddzero2c.dev/about/</guid>
+      <description>這是一個紀錄工作點滴的部落格</description>
+    </item>
+    
+  </channel>
+</rss>
