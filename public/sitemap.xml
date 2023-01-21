@@ -2,10 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ddzero2c.github.io/categories/</loc>
+    <loc>https://ddzero2c.github.io/tags/hugo/</loc>
+    <lastmod>2023-01-21T02:39:28+08:00</lastmod>
+  </url><url>
+    <loc>https://ddzero2c.github.io/posts/</loc>
+    <lastmod>2023-01-21T02:39:28+08:00</lastmod>
   </url><url>
     <loc>https://ddzero2c.github.io/</loc>
+    <lastmod>2023-01-21T02:39:28+08:00</lastmod>
   </url><url>
     <loc>https://ddzero2c.github.io/tags/</loc>
+    <lastmod>2023-01-21T02:39:28+08:00</lastmod>
+  </url><url>
+    <loc>https://ddzero2c.github.io/posts/use-hugo-to-build-this-blog/</loc>
+    <lastmod>2023-01-21T02:39:28+08:00</lastmod>
+  </url><url>
+    <loc>https://ddzero2c.github.io/categories/</loc>
   </url>
 </urlset>

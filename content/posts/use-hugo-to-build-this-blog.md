@@ -1,18 +1,15 @@
 ---
 title: '使用 Hugo 來建立這個部落格網站'
 date: 2023-01-21T02:39:28+08:00
-draft: true
+draft: false
 tags:
   - hugo
-  - githubpage
 ---
 
 ## 目標
 
 - 文章可以用 markdown 編輯
 - 文章可以根據 tag 做分類
-- 串接 Google Analytics
-- 擁有自己的網址
 
 ## 先決條件
 
@@ -26,8 +23,7 @@ tags:
 hugo new site blog
 cd blog
 git init
-git submodule add https://github.com/monkeyWzr/hugo-theme-cactus.git themes/cactus
-echo "theme = 'cactus'" >> config.toml
+git submodule add https://github.com/monkeyWzr/hugo-theme-cactus.git themes/cactus echo "theme = 'cactus'" >> config.toml
 hugo server -D
 ```
 
@@ -66,15 +62,19 @@ tags: # 請自行添加 tag, hugo 會幫你在首頁上分類文章
 
 ## 設定網站
 
-以上都是在你的電腦上執行 hugo 來協助你編輯文章  
+以上都是在你的電腦上執行 hugo 來協助你編輯文章
 接下來我們要將整個部落格放到網頁上
 
-首先，你需要在 GitHub 上建立一個新的 repository，命名為 yourusername.github.io，其中 yourusername 是你的 GitHub 用戶名。
-接著，在你的部落格目錄下，執行以下指令：
+首先，你需要在 GitHub 上建立一個新的 Repository，命名為 `yourusername.github.io`，其中 `yourusername` 是你的 GitHub 用戶名。
+接著在你的部落格目錄下，執行以下指令：
 
 ```bash
+ln -s public docs
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/yourusername/yourusername.github.io.git
 git push -u origin main
 ```
+
+然後到 Github 上點選 Settings -> Pages -> Branch: `main` `/docs` -> 點選 Save  
+等待幾分鐘後，你的部落格就可以在 https://yourusername.github.io 訪問了。

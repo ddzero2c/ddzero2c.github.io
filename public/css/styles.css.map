@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/ryder.hsu/personal/blog",
+	"sourceRoot": "/Users/ryder.hsu/personal/ddzero2c.github.io",
 	"sources": [
 		"themes/cactus/assets/scss/style.scss",
 		"themes/cactus/assets/scss/_variables.scss",
