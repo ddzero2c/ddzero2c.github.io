@@ -2,13 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ddzero2c.dev/about/</loc>
-    <lastmod>2023-01-21T01:43:53+08:00</lastmod>
+    <loc>https://ddzero2c.github.io/categories/</loc>
   </url><url>
-    <loc>https://ddzero2c.dev/categories/</loc>
+    <loc>https://ddzero2c.github.io/</loc>
   </url><url>
-    <loc>https://ddzero2c.dev/</loc>
-  </url><url>
-    <loc>https://ddzero2c.dev/tags/</loc>
+    <loc>https://ddzero2c.github.io/tags/</loc>
   </url>
 </urlset>
