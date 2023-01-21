@@ -15,8 +15,11 @@
       
       <guid>https://ddzero2c.github.io/posts/use-hugo-to-build-this-blog/</guid>
       <description>目標 文章可以用 markdown 編輯 文章可以根據 tag 做分類 先決條件 作業系統：macOS 下載 Hugo: brew install hugo 你已經會使用 git 建立部落格 hugo new site blog cd blog git init git submodule add https://github.com/monkeyWzr/hugo-theme-cactus.git themes/cactus echo &amp;#34;theme = &amp;#39;cactus&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.toml hugo server -D 打開 http://localhost:1313 就能看見部落格首頁囉！
-大部分主題都有附上 Github 的連結， 並且有一個 exampleSite/config.toml 目錄來教你如何設定 config.toml， 例如你可以會想要修改標題：
-baseURL = &amp;#34;https://example.com&amp;#34; languageCode = &amp;#34;en-us&amp;#34; theme = &amp;#34;cactus&amp;#34; title = &amp;#34;我的部落格&amp;#34; copyright = &amp;#34;我是誰&amp;#34; 儲存檔案後回到網頁上，應該就能看到網頁名稱變成了 &amp;ldquo;我的部落格&amp;quot;。其他的設定就自行摸索囉！
+大部分主題都有附上 Github 的連結
+並且有一個 exampleSite/config.toml 目錄來教你如何設定 config.toml
+例如你可以會想要修改標題：
+baseURL = &amp;#34;https://example.com&amp;#34; languageCode = &amp;#34;en-us&amp;#34; theme = &amp;#34;cactus&amp;#34; title = &amp;#34;我的部落格&amp;#34; copyright = &amp;#34;我是誰&amp;#34; 儲存檔案後回到網頁上，應該就能看到網頁名稱變成了 &amp;ldquo;我的部落格&amp;quot;。
+其他的設定就自行摸索囉！
 接著來建立第一篇貼文： hugo new content/posts/use-hugo-to-build-this-blog.</description>
     </item>
     
